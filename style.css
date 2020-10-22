@@ -1,0 +1,50 @@
+.background{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.jumbotron{
+  background:none ;
+}
+.center {
+margin-left: auto;
+margin-right: auto;
+}
+.strike {
+text-decoration: line-through;
+}
+
+.form-signin{
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 100%;
+  border-radius: 4px;
+}
+
+.form-label-group {
+  position: relative;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 2;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
